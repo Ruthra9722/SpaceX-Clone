@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  
+  
+}
+
+
+.container1 {
+  position: relative;
+  color: white;
+}
+.container1 img 
+{
+  
+  opacity: 0.9;
+}
+.bottom-right {
+ 
+  position: absolute;
+  bottom: 100px;
+  right: 220px;
+ 
+  
+}
+.carousel-inner .carousel-item span 
+{
+  color: white;
+  font-size: 1.3rem;
+}
+.navbar-dark {
+  background-color:rgba(0, 0, 0, 0.9);
+ 
+}
+.container .fheading
+{
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+  
+}
+.container1 .bottom-right p
+{
+  font-size:2rem;
+}
+.container1 .bottom-right .c1
+{
+  font-size: 40px;
+}
+iframe
+{
+  margin-top: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+
+  margin-left: 0.8rem;
+
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+.text:hover {
+  text-decoration: none;
+
+  border-bottom: 1px solid white;
+}
+.btn-lg {
+  padding: 10px 40px;
+margin-top:4px;
+  color: white;
+  font-weight: bold;
+}
+.btn-lg:hover {
+  color: white;
+  font-weight: bold;
+}
+.container2 {
+  color: white;
+  position: relative;
+}
+.container2  img 
+{
+  opacity: 0.8;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 225px;
+
+  left: 40px;
+}
+.container .u2 
+{
+  color:white;
+  margin-top: 3rem;
+}
+.bottom-left1 {
+  position: absolute;
+  bottom: 170px;
+
+  left: 40px;
+}
+.bottom-left1 p
+{
+  font-size: 1.4rem;
+}
+.bottom-left1 .c1 
+{
+  font-size: 2.5rem;
+}
+.bottom-left h4 {
+  font-size: 40px;
+  font-weight: bold;
+}
+body {
+  background-color: black;
+}
+.container .l1 
+{
+  color:white;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+.container .l2 
+{
+  color: white;
+  line-height: 1.8em;
+}
+
+.container3 {
+  position: relative;
+  color: white;
+}
+
+.text-right {
+  
+  position: absolute;
+  bottom: 130px;
+  right: 150px;
+}
+.text-right h4 {
+  font-size: 40px;
+}
+
+.btn-outline-light:hover {
+  color: black;
+}
+
+.footer {
+  
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+
+  padding: 1rem;
+}
+.footer span {
+  margin: 0.5rem;
+}
+.container-1 {
+  color: white;
+  position: relative;
+}
+.container-1 img
+{
+  width:100%;
+  background-size: cover;
+  
+  background-attachment: fixed;
+  height: 100vh;
+  opacity: 0.8;
+}
+.falcon-center {
+  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  color: "white";
+ 
+  transform: translate(-50%, -50%);
+}
+
+.falcon-center h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 90px;
+  font-weight: bold;
+}
+.falcon-center p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container-2 {
+  
+
+  color: white;
+}
+.container-2 .counters {
+  margin-top: 4rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-2 .counters span {
+  font-size: 80px;
+text-align: center;
+  margin: auto;
+}
+.container-2 .counters p {
+  font-size: 20px;
+  text-align: center;
+
+  margin: 0px;
+}
+.container-3 {
+  position: relative;
+  color: white;
+ 
+  margin-top: 10rem;
+}
+ .text-left {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 2em;
+  font-family: "Roboto", sans-serif;
+  padding: 0.8rem;
+}
+.row table
+{
+  font-size: 1rem;
+}
+.row .firstimg
+{
+  margin-top: 2rem;
+  width:400px;
+  height: 240px;
+}
+.row .logoimg
+{
+  width:80px;
+  height: 80vh;
+}
+.row .logoimg1
+{
+  width:280px;
+  height: 60vh;
+}
+.row .logoimg2
+{
+  width:100%;
+  height: auto;
+}
+.container-3 img {
+  position: absolute;
+  left: 800px;
+  right: 50px;
+  margin-bottom: 4rem;
+  top: 10px;
+  height: 600px;
+  width: 10vw;
+}
+.carousel-inner img 
+{
+  width:100vw;
+  height: 50vh;
+}
+.row p:nth-child(1)
+{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  margin-top: 5rem;
+  line-height: 2em;
+
+}
+
+.row img
+{
+ margin: auto;
+ width: 40vw;
+ height: 50vh;
+ overflow-x: hidden;
+}
+
+
+
+@media(max-width:800px)
+{
+  body {
+    font-size: 20px;
+    background-color: black;
+    overflow-x: hidden;
+    width:100%;
+  }
+  .container .l1 
+  {
+    font-size: 2rem;
+  }
+  .container .l2 
+  {
+    font-size: 1rem;
+  }
+  .container1 .bottom-right  .c1 
+  {
+    
+    font-size: 30px;
+    
+  }
+  .container1 .bottom-right  p
+  {
+    font-size: 20px;
+  }
+  .container1 .bottom-right 
+  {
+    display: block;
+   
+    color: white;
+    bottom: 90px;
+    left: 30px;
+  
+  }
+  .container1 .bottom-right p
+  {
+    font-size: 16px;
+  }
+  .row .logoimg1
+  {
+    width:100%;
+    height: auto;
+  }
+  .container1 .bottom-right  p:nth-child(1)
+  {
+   
+    font-size: 1rem;
+    
+   
+  }
+   iframe
+  {
+    width: 100%;
+    height: 50vh;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+  .container2 .bottom-left 
+  {
+  
+  position: absolute;
+    bottom:90px;
+   margin: auto;
+
+}
+.carousel-inner .carousel-item span 
+{
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.carousel-indicators 
+{
+  display: none
+}
+.container2 .bottom-left  h4
+{
+  font-size: 1.8rem;
+}
+  .container3 .text-right
+  {
+    font-size: 1rem;
+position: static;
+margin: 1rem 3rem 1rem 2rem;
+ 
+ }
+ .container3 .text-right p:nth-child(1)
+ {
+   display: none;
+ }
+ .container3 .text-right p:nth-child(4)
+ {
+  display: none;
+ }
+ .container-1   .falcon-center
+ {
+   margin-top: 3rem;
+ }
+ .container-1   .falcon-center h1{
+
+ font-size: 4rem;
+ font-weight: bold;
+ }
+ .container-1   .falcon-center p
+ {
+   font-size: 15px;
+   font-weight: bold;
+ }
+ .container-2 .counters span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.container-2 .counters p {
+  font-size:12px;
+  
+}
+
+ .text-left {
+  font-size: 10px;
+  line-height: 1em;
+
+
+}
+.row .firstimg
+{
+  margin-left: 10px;
+  width:80vw;
+  height:40vh;
+}
+.row .logoimg
+{
+  display: none;
+}
+
+.row table
+{
+  font-size: 0.8rem;
+  width:100%;
+  height: auto;
+ margin: auto;
+ font-weight: bold;
+}
+  .container .fheading
+  {
+   color: white;
+   font-size: 1.6rem;
+   margin-top: 2rem;
+   text-align: center;
+  }
+  
+}
+.footer .s-links
+{
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+.footer .s-links a
+{
+  text-decoration: none;
+  color: white;
+  margin: 0.7rem;
+}
+.footer .s-links a span
+{
+  font-size: 12px;
+  margin: 0.2rem;
+}
+.footer .s-links a:hover
+{
+  color:#666;
+}
+.hstyle
+{
+  color:white;
+  font-weight: bold;
+ 
+}

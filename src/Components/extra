@@ -1,0 +1,17 @@
+ <div className="row">
+            <div className="col-12 col-sm-5">
+              <p >STARSHIP USES</p>
+              <h1 >SATELLITES</h1>
+              <p >
+                Starship is designed to deliver satellites further and at a
+                lower marginal cost per launch than our current Falcon vehicles.
+                With a payload compartment larger than any fairing currently in
+                operation or development, Starship creates possibilities for new
+                missions, including space telescopes even larger than the James
+                Webb.
+              </p>
+            </div>
+            <div className="col-12 col-sm-5 offset-sm-1  ">
+              <img src="images/satel.gif" style={{ margin: "1.3rem" }} alt='starship'></img>
+            </div>
+          </div>
